@@ -1,0 +1,32 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.7rem;
+}
+
+.pagination-button {
+  cursor: pointer;
+}
+
+.page-item {
+  display: inline-block;
+}
+
+.pagination-button {
+  cursor: pointer;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: teal;
+  border-style: solid;
+  border-color: teal;
+  border-radius: 5px;
+  color: white;
+  margin: 0.0625rem;
+}
+
+.page-item a .pagination-button:active {
+  background-color: teal;
+  color: white;
+}

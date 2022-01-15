@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  background-color: #100f24;
+  height: 10vh;
+}
+
+.header-logo {
+  object-fit: contain;
+  margin-top: 1vh;
+  width: 7em;
+  display: inline-block;
+  vertical-align: middle;
+  width: 10em;
+}
+
+.header > span {
+  font-weight: bold;
+  color: white;
+  padding-left: 1.25rem;
+  margin-top: 1.25rem;
+}
